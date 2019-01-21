@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/icon"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masafi, Fujairah"
+            android:layout_margin="10dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/times_new_roman"
+            android:textColor="@color/dark_text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cleaning Details:"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/times_new_roman"
+            android:textColor="@color/dark_text"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2.5">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Service:"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:fontFamily="@font/times_new_roman"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:gravity="center"
+                android:fontFamily="@font/times_new_roman"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:id="@+id/minutes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Body Wash"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:fontFamily="@font/times_new_roman"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/line_margin"
+            android:layout_marginRight="@dimen/line_margin"
+            android:background="@color/dark_text" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2.5">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Vehicle:"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:fontFamily="@font/times_new_roman"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:gravity="center"
+                android:fontFamily="@font/times_new_roman"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:id="@+id/messages"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sedan"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:fontFamily="@font/times_new_roman"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/line_margin"
+            android:layout_marginRight="@dimen/line_margin"
+            android:background="@color/dark_text" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2.5">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Charges:"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:fontFamily="@font/times_new_roman"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:gravity="center"
+                android:fontFamily="@font/times_new_roman"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:id="@+id/internet"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="50 AED"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:fontFamily="@font/times_new_roman"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/line_margin"
+            android:layout_marginRight="@dimen/line_margin"
+            android:background="@color/dark_text" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2.5">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Status:"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:fontFamily="@font/times_new_roman"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:gravity="center"
+                android:fontFamily="@font/times_new_roman"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:id="@+id/paymentStatus"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cash on Delivery"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:fontFamily="@font/times_new_roman"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/line_margin"
+            android:layout_marginRight="@dimen/line_margin"
+            android:background="@color/dark_text" />
+        <TextView
+            android:id="@+id/rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total:-  50/- AED"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/blue_800"
+            android:fontFamily="@font/times_new_roman"
+            android:lineSpacingExtra="2dp"/>
+
+        <TextView
+            android:id="@+id/dial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile Number:  0505573607"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/blue_800"
+            android:fontFamily="@font/times_new_roman"
+            android:lineSpacingExtra="2dp"/>
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Super Card is an allrounder in the world of Ufone packages.\nIt covers all aspects of the user. It's best for a common bussiness man."
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#0c3108"
+            android:visibility="gone"
+            android:lineSpacingExtra="2dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/gmap"
+                android:onClick="openMap"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/whatsapp_icon"
+                android:padding="10dp"
+                android:onClick="whatsApp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/calll"
+                android:padding="11dp"
+                android:onClick="makeCall"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Activate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dip"
+            android:text="Complete Order"
+            android:background="@color/btn_login_bg"
+            android:textColor="@color/btn_login"
+            android:onClick="completeOrder"/>
+
+    </LinearLayout>
+</ScrollView>
